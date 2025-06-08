@@ -1,3 +1,19 @@
+import inCover from "../assets/cover/in.jpg";
+import movieCover from "../assets/cover/movie.jpg";
+import toCover from "../assets/cover/to.jpg";
+import springCover from "../assets/cover/spring.jpg";
+import everythingCover from "../assets/cover/everything.jpg";
+import cover1000 from "../assets/cover/1000.jpg";
+import homeCover from "../assets/cover/home.jpg";
+
+import inMusic from "../assets/music/in.mp3";
+import movieMusic from "../assets/music/movie.mp3";
+import toMusic from "../assets/music/to.mp3";
+import springMusic from "../assets/music/spring.mp3";
+import everythingMusic from "../assets/music/everything.mp3";
+import music1000 from "../assets/music/1000.mp3";
+import homeMusic from "../assets/music/home.mp3";
+
 const audio = document.getElementById("audio");
 const progressBar = document.getElementById("progressBar");
 const musicCover = document.querySelector(".music-cover-img");
@@ -10,38 +26,38 @@ const playBtn = document.querySelector(".play-btn");
 const tracks = [
   {
     title: "먼 훗날 우리",
-    img: "/src/assets/cover/in.jpg",
-    src: "/src/assets/music/in.mp3",
+    img: inCover,
+    src: inMusic,
   },
   {
     title: "MOVIE",
-    img: "/src/assets/cover/movie.jpg",
-    src: "/src/assets/music/movie.mp3",
+    img: movieCover,
+    src: movieMusic,
   },
   {
     title: "나와 내 이웃에게",
-    img: "/src/assets/cover/to.jpg",
-    src: "/src/assets/music/to.mp3",
+    img: toCover,
+    src: toMusic,
   },
   {
     title: "봄눈",
-    img: "/src/assets/cover/spring.jpg",
-    src: "/src/assets/music/spring.mp3",
+    img: springCover,
+    src: springMusic,
   },
   {
     title: "everything",
-    img: "/src/assets/cover/everything.jpg",
-    src: "/src/assets/music/everything.mp3",
+    img: everythingCover,
+    src: everythingMusic,
   },
   {
     title: "천년지애",
-    img: "/src/assets/cover/1000.jpg",
-    src: "/src/assets/music/1000.mp3",
+    img: cover1000,
+    src: music1000,
   },
   {
     title: "home-sweet-home",
-    img: "/src/assets/cover/home.jpg",
-    src: "/src/assets/music/home.mp3",
+    img: homeCover,
+    src: homeMusic,
   },
 ];
 

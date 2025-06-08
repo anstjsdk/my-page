@@ -1,8 +1,8 @@
-import "/src/styles/style.css";
-import "/src/styles/reset.css";
-import "/src/styles/playlist.css";
-import "/src/styles/weather.css";
-import "/src/javascript/playlist.js";
-import "/src/javascript/weather.js";
-import "/src/javascript/quote.js";
-import "/src/styles/quote.css";
+import "../styles/style.css";
+import "../styles/reset.css";
+import "../styles/playlist.css";
+import "../styles/weather.css";
+import "../styles/quote.css";
+import "./playlist.js";
+import "./weather.js";
+import "./quote.js";

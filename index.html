@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/reset.css" />
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
     <title>Suna's Page</title>
   </head>
   <body>
@@ -14,11 +14,7 @@
           <h1 class="playlist-title">Playlist₊ ˚ ✩ ｡˚ ˚☽</h1>
           <div class="title">천년지애</div>
           <div class="music-cover">
-            <img
-              class="music-cover-img"
-              src="/src/assets/cover/1000.jpg"
-              alt="music-cover"
-            />
+            <img class="music-cover-img" alt="music-cover" />
           </div>
           <input type="range" id="progressBar" min="0" value="0" step="0.01" />
           <div class="controls">
@@ -61,7 +57,7 @@
               </svg>
             </button>
           </div>
-          <audio id="audio" src="/src/assets/music/in.mp3"></audio>
+          <audio id="audio"></audio>
         </div>
       </div>
       <div class="box weather-box">
@@ -77,6 +73,6 @@
         </div>
       </div>
     </div>
-    <script type="module" src="/src/javascript/main.js"></script>
+    <script type="module" src="./src/javascript/main.js"></script>
   </body>
 </html>

@@ -82,7 +82,7 @@
 }
 #progressBar::-webkit-slider-thumb:hover {
   background: #f06292;
-}
+} 
 #progressBar::-webkit-slider-runnable-track {
   background: #f06292;
   height: 7px;
@@ -131,7 +131,7 @@
 }
 .button:active,
 .play-btn:hover {
-  background: #ffd1ea;
+  background: #fef9ff;
 }
 .button svg,
 .play-btn svg {

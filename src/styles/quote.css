@@ -1,3 +1,7 @@
 .quote-box {
   background: url(../assets/quote.jpg);
 }
+.quote {
+  text-align: center;
+  padding-top: 35px;
+}

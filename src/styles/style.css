@@ -4,7 +4,7 @@ html {
 body {
   height: 100vh;
   overflow-y: hidden;
-  background: url(../assets/background.jpg);
+  background: url(../assets/background.jpg) center center / cover no-repeat;
 }
 
 .container {

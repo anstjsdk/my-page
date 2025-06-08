@@ -6,3 +6,5 @@ import "../styles/quote.css";
 import "./playlist.js";
 import "./weather.js";
 import "./quote.js";
+import "./random1.js";
+import "./random2.js";

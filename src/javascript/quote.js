@@ -29,7 +29,7 @@ const quotes = [
   { quote: "오므라이스먹자", author: "계란장인" },
   { quote: "탕수육먹자", author: "추베롭" },
 ];
-const quote = document.querySelector(".qutoe-text");
+const quote = document.querySelector(".quote-text");
 const author = document.querySelector(".author-text");
 
 const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];

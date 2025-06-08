@@ -1,7 +1,7 @@
 .weather {
   height: 100%;
   width: 100%;
-  background-color: rgb(152, 146, 149);
+  background: url(../assets/weather.jpg);
   border-radius: 18px;
   box-shadow: 0 8px 32px 0 rgba(255, 182, 193, 0.17);
   display: flex;

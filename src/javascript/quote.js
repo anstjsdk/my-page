@@ -1,10 +1,10 @@
 const quotes = [
-  { quote: "밥먹자", author: "문선아" },
+  { quote: "밥먹자", author: "선아" },
   { quote: "개발하지말고먹자", author: "만두" },
   { quote: "푸딩먹자", author: "푸딩집사장" },
-  { quote: "떡볶이먹자", author: "떡순이" },
-  { quote: "치킨먹자", author: "치느님" },
-  { quote: "라면먹자", author: "해장왕" },
+  { quote: "キティ、愛してる", author: "キティ" },
+  { quote: "リラックマ、愛してる", author: "リラックマRirakkuma" },
+  { quote: "プリンをどうぞ", author: "kitty" },
   { quote: "만두먹자", author: "만두장인" },
   { quote: "냉면먹자", author: "여름계왕" },
   { quote: "김밥먹자", author: "김선생" },
@@ -28,6 +28,10 @@ const quotes = [
   { quote: "샌드위치먹자", author: "브런치러버" },
   { quote: "오므라이스먹자", author: "계란장인" },
   { quote: "탕수육먹자", author: "추베롭" },
+  {
+    quote: "석주야",
+    author: "그만먹어",
+  },
 ];
 const quote = document.querySelector(".quote-text");
 const author = document.querySelector(".author-text");

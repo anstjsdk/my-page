@@ -8,3 +8,5 @@ import "./weather.js";
 import "./quote.js";
 import "./random1.js";
 import "./random2.js";
+import "../styles/todo.css"
+import "../styles/sticker.css"

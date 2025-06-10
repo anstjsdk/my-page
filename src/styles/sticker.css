@@ -19,3 +19,23 @@
   top: 35vh;
   right: 33vw;
 }
+.sticker3 {
+    background: url(../assets/stickers/sticker3.jpg) no-repeat center/cover;
+    width: 70px;
+    height: 70px;
+    top: 3vh;
+    right:60vw;
+}.sticker4 {
+    background: url(../assets/stickers/sticker4.jpg) no-repeat center/cover;
+    width: 200px;
+    height: 150px;
+    top: 78vh;
+    left: 3vw;
+}
+.sticker5 {
+    background: url(../assets/stickers/sticker5.jpg) no-repeat center/cover;
+    width: 200px;
+    height: 150px;
+    top: 2vh;
+    right: 3vw;
+}

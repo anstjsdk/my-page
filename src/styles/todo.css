@@ -1,3 +1,14 @@
 .todos-title {
-    font-size: 30px;
+  font-size: 30px;
+}
+#todo-form {
+  position: absolute;
+  top: 42vh;
+  left: 50vw;
+}
+.input-box {
+    padding: 20px;
+    border:1px solid white;
+    border-radius:10px ;
+    color: cadetblue;
 }

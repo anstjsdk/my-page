@@ -10,3 +10,4 @@ import "./random1.js";
 import "./random2.js";
 import "../styles/todo.css"
 import "../styles/sticker.css"
+import "./todolist.js"

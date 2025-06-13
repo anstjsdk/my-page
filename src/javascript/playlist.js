@@ -87,15 +87,41 @@ function updatePlayState(isPlaying) {
   }
 }
 
-prevBtn.onclick = () => {
+function playPrevMusic() {
   currentIndex = (currentIndex - 1 + tracks.length) % tracks.length;
   playTrack(currentIndex);
-};
+}
 
-nextBtn.onclick = () => {
+function playNextMusic() {
   currentIndex = (currentIndex + 1) % tracks.length;
   playTrack(currentIndex);
+}
+
+prevBtn.onclick = () => {
+  playPrevMusic();
 };
+
+document.addEventListener("keydown", (event) => {
+  if (event.code === "118") {
+    playPrevMusic();
+  }
+});
+
+nextBtn.onclick = () => {
+  playNextMusic();
+};
+
+document.addEventListener("keydown", (event) => {
+  if (event.code === "F9") {
+    playNextMusic();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.code === "F8") {
+    togglePlayPause();
+  }
+});
 
 audio.addEventListener("ended", () => {
   nextBtn.click();
